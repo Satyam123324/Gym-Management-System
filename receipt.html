@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BILL RECEIPT</title>
+    <style>
+        body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+}
+
+.receipt-container {
+	width: 80%;
+	margin: 40px auto;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.receipt-header {
+	background-color: #f7f7f7;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+.receipt-header h1 {
+	margin-top: 0;
+}
+
+.receipt-body {
+	padding: 20px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: left;
+}
+
+th {
+	background-color: #f7f7f7;
+}
+
+.receipt-footer {
+	background-color: #f7f7f7;
+	padding: 10px;
+	border-top: 1px solid #ddd;
+}
+
+.receipt-footer p {
+	margin-bottom: 10px;
+}
+    </style>
+	
+</head>
+<body>
+	<div class="receipt-container">
+		<div class="receipt-header">
+			<h1>Bill Receipt</h1>
+			<p>Invoice No: #001</p>
+			<p>Date: 2023-02-20</p>
+		</div>
+		<div class="receipt-body">
+			<table>
+				<thead>
+					<tr>
+						<th>Item</th>
+						<th>Quantity</th>
+						<th>Price</th>
+						<th>Total</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Gym Membership (Basic)</td>
+						<td>1</td>
+						<td>$20.00</td>
+						<td>$20.00</td>
+					</tr>
+					<tr>
+						<td>Personal Training Session</td>
+						<td>1</td>
+						<td>$30.00</td>
+						<td>$30.00</td>
+					</tr>
+					<tr>
+						<td colspan="3">Subtotal</td>
+						<td>$50.00</td>
+					</tr>
+					<tr>
+						<td colspan="3">Tax (10%)</td>
+						<td>$5.00</td>
+					</tr>
+					<tr>
+						<td colspan="3">Total</td>
+						<td>$55.00</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="receipt-footer">
+			<p>Thank you for your payment!</p>
+			<p>Payment Method: Credit Card</p>
+			<p>Card Number: ************1234</p>
+		</div>
+	</div>
+</body>
+</html>
